@@ -5,3 +5,31 @@
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+
+html {
+	background-color: rgb(0,0,0);
+}
+
+body {
+}
+
+header, footer, #content {
+	display: block;
+	width: 100%;
+	min-width: 360px;
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+#logo_image {
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(85,85,85);
+	padding: 30px;
+	animation: background_shift 12s infinite linear alternate;
+}
+
+@keyframes background_shift {
+	from { background-color: rgb(0,0,0); }
+	to { background-color: rgb(255,255,255); }
+}
