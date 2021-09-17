@@ -24,12 +24,26 @@ header, footer, #content {
 #logo_image {
 	display: block;
 	margin: 0 auto;
-	background-color: rgb(85,85,85);
 	padding: 12px;
-	animation: background_shift 12s infinite linear alternate;
+	background: linear-gradient(-45deg, rgba(0,0,0,0.5), rgba(255,255,255,0.5));
+	background-size: 200% 200%;
+	animation: gradient 12s linear infinite;
 }
 
-@keyframes background_shift {
-	from { background-color: rgb(0,0,0); }
-	to { background-color: rgb(255,255,255); }
+#logo_div {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 12px;
+	background: linear-gradient(-45deg, rgba(255,255,255,0.5), rgba(0,0,0,0.5));
+	background-size: 200% 200%;
+	animation: gradient 6s linear infinite;
+
+}
+
+@keyframes gradient {
+	0% { background-position: 0% 100%; }
+	25% { background-position: 100% 100%; }
+	50% { background-position: 100% 0%; }
+	75% { background-position: 0% 0%; }
+	100% { background-position: 0% 100%; }
 }
