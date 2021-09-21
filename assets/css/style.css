@@ -23,6 +23,10 @@ header, footer, #content {
 	margin: 0 auto;
 }
 
+header {
+	margin-top: 24px;
+}
+
 #logo_image {
 	display: block;
 	width: 216px;
