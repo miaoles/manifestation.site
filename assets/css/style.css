@@ -43,9 +43,9 @@ header {
 	height: 216px;
 	margin: 0 auto;
 	padding: 12px;
-	background: linear-gradient(-45deg, rgba(255,255,255,0.5), rgba(0,0,0,0.5));
+	/*background: linear-gradient(-45deg, rgba(255,255,255,0.5), rgba(0,0,0,0.5));
 	background-size: 400% 400%;
-	animation: background_shifting 9s linear infinite;
+	animation: background_shifting 9s linear infinite;*/
 }
 
 #header_background {
